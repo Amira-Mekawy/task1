@@ -1,0 +1,295 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow:auto;
+    box-sizing:border-box;
+}
+.background{
+   position: relative;
+}
+.nav-left img{
+    position: absolute;
+    margin-top: -570px;
+    margin-left: 40px;
+}
+.nav-left ul{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 220px;
+    font-size: 20px;
+}
+.nav-left a{
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(65, 154, 255);
+}
+.nav-left a:hover{
+    font-size: 24px;
+    text-decoration: underline;
+    border-bottom: 1px  rgb(168, 132, 202);
+    color: rgb(168, 132, 202);
+}
+.nav-right input{
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 1230px;
+    padding:  10px 10px 10px 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    width: 90px;
+}
+.left-text h1{
+    position: absolute;
+    margin-top: -360px;
+    margin-left: 160px;
+    font-size:45px;
+    font-weight: lighter;
+    font-family:Sans-serif;
+}
+.left-text span{
+    color: blueviolet;
+}
+.left-text p{
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 169px;
+    font-size: 20px;
+    color: dimgrey;
+    font-family: sans-serif ;
+}
+.right-img .img{
+    position: absolute;
+    margin-top: -560px;
+    margin-left: 800px ;
+}
+.right-img .img1{
+    position: absolute;
+    margin-top: -530px;
+    margin-left: 930px;
+}
+.right-img .img2{
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 900px;
+}
+.right-img .img3{
+    position: absolute;
+    margin-top: -138px;
+    margin-left: -150px;
+}
+.section1 .img4{
+  margin-top:70px ;
+  margin-left: 350px;
+  position: relative;
+}
+.section1 .div1{
+    position: absolute;
+    margin-top:-350px;
+}
+.section1 .div1 img{
+    margin-left: 250px;
+}
+.section1 .div1 h1{
+    font-size: 13px;
+    margin-left: 250px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family:sans-serif  ;
+}
+.section1 .div1 p{
+    color: dimgray;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 200px;
+    font-family:sans-serif  ;
+}
+.section1 .div2{
+    position: absolute;
+    margin-top: -250px;
+}
+.section1 .div2 img{
+    margin-left: 650px;
+}
+.section1 .div2 h1{
+    font-family:sans-serif  ;
+    margin-left: 670px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.section1 .div2 p{
+    color: dimgray;
+    text-align: center;
+    font-size: 18px;
+    font-family:sans-serif;
+    margin-left: 570px;
+}
+.section1 .div3 {
+    position: absolute;
+    margin-top: -25px;
+}
+.section1 .div3 img{
+    margin-left: 1000px;
+}
+.section1 .div3 h1{
+    font-family:sans-serif ;
+    margin-left: 1080px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+.section1 .div3 p{
+   color: dimgray;
+   text-align: center;
+   font-size: 17px;
+   font-family:sans-serif;
+   margin-left: 960px;
+}
+.section1 .div4 img{
+    position: relative;
+    margin-left: 130px;
+}
+.section1 .div4 h6{
+    position: absolute;
+    font-family:sans-serif;
+    margin-top:-180px;
+    margin-left: 230px;
+    font-size: 15px;
+    color: white;
+    font-weight: lighter;
+}
+.section1 .div4 h1{
+    position: absolute;
+    font-family:sans-serif;
+    margin-top: -155px;
+    margin-left: 230px;
+    font-size: 40px;
+    color: white;
+    font-weight:lighter ;
+}
+.section1 {
+    margin-bottom: 100px;
+    
+}
+.section2 .div1{
+    margin-left: 225px;
+    margin-top: 100px;
+    position: relative;
+}
+.section2 .div2 img{
+    margin-left: 500px;
+    position: absolute;
+    margin-top: -350px;
+}
+.section2 .div2 h1{
+    margin-left: 630px;
+    margin-top: 100px;
+    font-family:sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.section2 .div2 p{
+    margin-left: 635px;
+    color: dimgray;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+.section2 .div3 img{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -440px; 
+}
+footer{
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+}
+footer div .img{
+    width: 110%;
+    height: 140%;
+    position: absolute;
+    right: -7%;
+}
+footer div .img1{
+    position: absolute;
+    width: 670px;
+    margin-left: 590px;
+    margin-top: 150px;
+}
+footer div .img2{
+    position: absolute;
+    width: 135px;
+    height: 50px;
+    margin-top: 400px;
+    margin-left: 100px;
+}
+footer div .img3{
+    position: absolute;
+    width: 135px;
+    height: 50px;
+    margin-top: 400px;
+    margin-left: 270px;
+}
+footer div .img4{
+    position: absolute;
+    margin-top: 407px;
+    margin-left: 110px;
+}
+footer  div .h6{
+    position: absolute;
+    margin-top: 417px;
+    margin-left: 145px;
+    font-size: 15px;
+    color: rgb(126, 23, 222);
+}
+footer div .img5{
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 285px;
+}
+footer div .h66{
+    position: absolute;
+    margin-top: 417px;
+    margin-left: 320px;
+    font-size: 16px;
+    color: rgb(126, 23, 222);
+}
+footer div .img6{
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 110px;
+}
+footer div .img7{
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 160px;
+}
+footer div .img8{
+    position: absolute;
+    margin-top: 478px;
+    margin-left: 200px;
+}
+footer div ul{
+    display: flex;
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 90px;
+    font-size: 15px;
+}
+footer div a{
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+footer a:hover{
+    font-size:20px ;
+    margin-right: 20px;
+}
